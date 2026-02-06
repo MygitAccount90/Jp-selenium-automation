@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jp_tests.CreateAccountTest">
+      <class name="com.jp_Test.CreateAccountTest">
         <methods>
-          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="verifyErrorMessagesForEmptyFields"/>
           <include name="tearDown"/>
-          <include name="createAccountTest"/>
         </methods>
-      </class> <!-- com.jp_tests.CreateAccountTest -->
+      </class> <!-- com.jp_Test.CreateAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
